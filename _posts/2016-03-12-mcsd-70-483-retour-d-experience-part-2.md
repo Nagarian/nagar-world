@@ -18,7 +18,7 @@ Dans la [première partie]({% post_url 2016-03-12-mcsd-70-483-retour-d-experienc
 
 <!--more-->
 
-# Programmer l'examen
+## Programmer l'examen
 
 L'examen est pris en charge par une société externe à Microsoft : Pearson Vue. Ceux-ci sont spécialisés dans le passage de certification, de nombreuses entreprises leur délègue cette partie-là. Aussi c'est un nom que vous risquez de voir revenir souvent. L'avantage c'est qu'ils nous proposent plusieurs options pour passer la nôtre. Mais en premiers lieux avant d'acheter la certification, il faut créer un compte Microsoft Learning et renseigner les informations demandées. Pour cela, le moyen le plus simple est de cliquer sur le bouton planifier un examen sur la page de la certif (pour rappel : [le lien](https://www.microsoft.com/fr-FR/learning/exam-70-483.aspx))
 
@@ -48,7 +48,7 @@ Durant le processus de planification de l'examen, il y a un autre point auquel i
 
 Pour la suite des opérations, il suffira d'effectuer le paiement, puis de se rendre sur place le jour venu. Je vous conseille de lire tout ce que l'on vous suggère, ça vous permettra de gagner du temps par la suite (ces documents ne sont pas trop longs, et vous permettrons de savoir ce dont vous aurez besoin lorsque vous irez passer l'examen)
 
-# Passer la certification
+## Passer la certification
 
 Une fois sur place, j'ai été accueilli dans le centre par deux personnes, le processus étant automatisé il savait que je devais venir. Du coup, même en étant arrivé à l'avance (9h40) au lieu de 10H, j'ai pu commencer le test en avance. Mais tout d'abord, il m'a fallu passer les formalités. Tout d'abord, nous avons quelques feuilles à signer, puis il nous faut prendre notre plus belle pose, car une photo de nous est prise. Dernier point à mentionner, il faut obligatoirement avoir deux pièces d'identité pour pouvoir passer l'examen (le permis de conduire et la carte d'identité m'ont suffit). Après cela, nous avons à notre disposition gratuitement, un casier dans lequel on peut y laisser nos affaires personnelles le temps que l'on passe l'examen. En effet, nous ne sommes pas autorisés à avoir le moindre effet personnel dans la salle d'examen en dehors de nos deux pièces d'identité (que nous avons préalablement présentées) et la clé du casier contenant nos affaires.
 

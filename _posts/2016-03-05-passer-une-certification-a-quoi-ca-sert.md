@@ -16,7 +16,7 @@ Dernièrement j'ai passé une certification, et il se trouve que quelques person
 
 <!--more-->
 
-# Tout d'abord, avant de commencer qu'est-ce qu'une certification ?
+## Tout d'abord, avant de commencer qu'est-ce qu'une certification ?
 
 Eh bien, il s'agit d'un document attestant de notre maîtrise d'une technologie donnée. Ce document est plus ou moins similaire à un diplôme universitaire. Ce dernier étant une certification prouvant que l'on a suivi et accompli un cursus donné. Dans notre cas, la certification permet donc de justifier nos compétences. Et à partir de ce moment-là nous sommes donc reconnu comme étant expert dans ce domaine (tout dépend bien évidemment du niveau de la certification passée)
 
@@ -26,7 +26,7 @@ En effet, lorsque l'on est certifié on peut généralement accéder à certains
 
 Celle-ci d'ailleurs, a tout a y gagner que nous soyons certifiés car cela lui permet de justifier auprès de ses clients, la qualité professionnelle des personnes avec qui elle a à faire.
 
-# Pas mal tout ça, mais comment l'obtenir ta certification ?
+## Pas mal tout ça, mais comment l'obtenir ta certification ?
 
 La réponse à cela est ... tout dépend de laquelle nous voulons passer. Il existe des centaines de certifications, chacune plus variée que les autres. La première chose à faire est donc de déterminer quelle sera la certification qui va nous intéresser et qu'est-ce que j'en retirerais si je la passe.
 
@@ -34,7 +34,7 @@ Je m'exprime, par exemple, moi je suis un développeur et je kiffe bosser sur du
 
 Une fois que l'on a choisi la certification nous voulons passer, il faut donc rechercher sur internet quelles sont les modalités à remplir pour l'obtenir. Celles-ci peuvent énormément varier d'une certification à une autre, mais généralement, il suffit juste de passer un QCM auquel il faut obtenir une note supérieure à un seuil minimum fixé (et on ne parle pas ici d'avoir la moyenne mais plus de 70%)
 
-# Okay et maintenant la question qui fâche, ça va chiffrer dans les combien ?
+## Okay et maintenant la question qui fâche, ça va chiffrer dans les combien ?
 
 En tant qu'étudiant, il existe une multitude de solution nous permettant de passer à moindres frais une certification. Pour commencer, de par notre status des réductions nous sont souvent proposées. Par exemple, pour les certifications Microsoft, la plupart coûtent 150€, mais pour les étudiants, le prix est quasiment divisé par deux.
 

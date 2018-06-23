@@ -24,7 +24,7 @@ Dans cet avant-dernier article à propos de Chameleon Pi, vous allez découvrir 
   - **[Ecran de veille, nouveau écran et bonus]({% post_url 2014-10-11-arcade-raspberry-pi-2-3 %})**
 - Partie 3/3 : MCP23017 - PiArcade, ou l'art de re-coder ce qui existe déjà
 
-# Modifier les images de l'écran de veille
+## Modifier les images de l'écran de veille
 
 Pour ce qui est de l'écran de veille du sélecteur, j'ai repris les images qui étaient déjà utilisées dans la première version, à savoir les images représentant les messages d'erreurs des différentes consoles. Sauf que si vous désirez changer les images affichées cela est faisable très facilement, il suffit de rajouter votre dossier d'image dans le dossier `resources/VOTRE_NOM_DE_DOSSIER`, puis de modifier le fichier frame/screensaver.py. Et plus précisément la première ligne de la fonction `LoadImage`.
 
@@ -34,17 +34,17 @@ self.picture = pygame.image.load( "resources/" + "error/error"+ ( "%02d" % rando
 
 Je ne pense pas avoir besoin d'expliquer plus, sur les modifications à apporter sur cette ligne. Une fois fait, il ne restera plus qu'à admirer le résultat.
 
-# Ajouter un nouvel écran
+## Ajouter un nouvel écran
 
 Pour pouvoir arriver à faire cela, plusieurs étapes sont nécessaires.
 
-## 1. Dupliquer le fichier IFrame
+### 1. Dupliquer le fichier IFrame
 
 C'est dans celui-ci, que vous devrez mettre toute la logique de votre nouvel écran. Comme je l'ai expliqué auparavant, pour chacun des nouveaux affichages, vous aurez les 5 fonctions principales. Ainsi, une fois que vous aurez dupliqué le fichier IFrame, vous devez modifier le nom de la classe. Puis vous n'aurez plus qu'à écrire la logique de fonctionnement de votre nouvel écran, en initialisant les ressources lourdes de XNA dans le `LoadContent`, les variables de classe dans le `__init__`. Puis vous écrivez la logique de rafraichissement de votre écran dans l'`Update` tout comme la gestion des touches. Puis, il ne vous restera plus qu'à dessiner vos éléments sur l'écran à l'aide de la fonction `Draw`.
 
 Vous aurez probablement besoin d'utiliser pygame, pour pouvoir charger en mémoire les différentes ressources. Aussi n'oubliez pas de l'inclure. De plus si vous n'êtes pas familier avec la librairie pygame n'hésitez pas à regarder le fonctionnement des autres frames !
 
-## 2. Naviguer entre les frames
+### 2. Naviguer entre les frames
 
 C'est bien beau de créer une nouvelle frame, cependant si l'on ne peut pas y accéder c'est un peu inutile. Aussi, vous aurez sans doute remarqué que la fonction Update retourne une valeur un peu particulière. Il s'agit d'un tuple :
 
@@ -70,7 +70,7 @@ return ("RETURN", None) # ce tuple permet de quitter l'écran en cours et reveni
 
 Donc il ne vous reste plus qu'à aller modifier un des écrans pécédent pour pouvoir mettre la condition qui vous permettra de naviguer vers votre nouvelle frame.
 
-## 3. Modifier `selector.py`
+### 3. Modifier `selector.py`
 
 A ce moment précis si vous essayez d'afficher votre nouvel écran en appuyant sur le bouton que vous aurez défini, vous aurez une jolie erreur. Et pour cause, je ne vous ai pas encore tout dit au niveau de la navigation. En effet, dans mon implémentation de XNA-Like, je n'ai pas réussi à trouver une façon satisfaisante pour pouvoir mettre en place la navigation sans toucher au fichier `selector.py`. Aussi, pour que votre frame s'affiche vous devez rajouter 2 éléments dans ce fameux fichier.
 
@@ -89,7 +89,7 @@ elif action[1] == "OptionsMenu":
 
 Maintenant vous êtes en mesure de rajouter autant d'écrans que vous voulez dans le sélecteur, happy coding !
 
-# Informations complémentaires
+## Informations complémentaires
 
 Je vais maintenant m'attarder un peu sur le fichier `selector.py`. En effet, c'est ce fichier qui permet de mettre en place la structure et la logique XNA-Like. Aussi il y a quelques trucs à savoir.
 
@@ -118,8 +118,7 @@ Ainsi nous récupérons le code retour dans la variable `choice`, et nous récup
 python selector.py
 ```
 
-
-# Conclusion
+## Conclusion
 
 Voilà, je pense avoir fait le tour sur la nouvelle version de l'interface de ChameleonPi, que j'ai réalisée. Si vous avez encore des questions à ce sujet-là, n'hésitez pas à laisser un message, ci-dessous. De plus, n'hésitez surtout pas à améliorer et/ou customiser votre version de cette interface. Et ainsi créer votre propre branche sur GitHub, qui je vous rappelle est disponible à [cette adresse](https://github.com/Nagarian47/ChameleonPi-selector).
 

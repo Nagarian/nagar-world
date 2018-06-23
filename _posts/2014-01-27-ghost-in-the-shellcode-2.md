@@ -47,7 +47,7 @@ Cependant aux vues des résultats retournés, quelque chose ne marchait pas comm
 
 ![example de code](/assets/images/uploads/2014/01/Sans-titre.png)
 
-# Mais comment cela se fait ?
+## Mais comment cela se fait ?
 
 Le problème réside lors de l'appel à la fonction brute(imbrication++); En effet, au lieu de faire
 
@@ -65,7 +65,7 @@ brute(imbrication);
 
 En voyant cela, on comprend que `maVariable++` est en fait une fonction (chose que l'on oublie) et que par conséquent elle est exécutée avant d’appeler notre autre fonction. Et donc, il est normal que notre variable reste incrémenter à la sortie de notre fonction car elle modifie sa valeur au lieu de nous transmettre une copie.
 
-# La solution ?
+## La solution ?
 
 Le problème est donc identifié ! Lorsque l'on appelle une fonction et que l'on passe en argument une variable++, la variable sera incrémentée puis sera passée en argument. Donc, si l'on veut passer en argument une variable augmenté de 1 sans modifier celle-ci dans notre fonction actuelle, il faut donc marquer explicitement.
 

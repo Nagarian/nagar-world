@@ -26,7 +26,7 @@ Celles-ci se basent sur le fonctionnement des applications Windows 8 donc WinRT.
 
 Afin d'illustrer, les différents types d'applications que l'on peut faire, j'ai repris un projet réalisé dans le cadre d'une initiation à Windows Phone que j'ai eu l'occasion de donné, et je l'ai porté sur les différents projets que l'on peut réaliser avec Visual Studio 2013. Pour le récupérer c'est par ici : <https://github.com/Nagarian47/LaboWP_LePendu>
 
-# Les applications Windows 8
+## Les applications Windows 8
 
 ![Les applications Windows 8 WinRT](/assets/images/uploads/2014/10/AppWindows.png){:img: width="768" height="495"}
 **Les applications Windows 8 WinRT**
@@ -41,7 +41,7 @@ Entre Windows 8 et 8.1, Microsoft a poursuivi son travail de portage des API et 
 
 Pour en revenir, sur la création de projet C# pour les `applis Windows 8.1`, nous avons donc un seul type de choix, il s'agit de `WinRT`.
 
-# Les applications Windows Phone
+## Les applications Windows Phone
 
 Avant de lancer Windows 8, Microsoft avait développé le système Windows Phone 7 et les applications tournés en Silverlight. Lors du passage sur la version 8 de Windows Phone, Silverlight est resté. Mais lors de la mise à jour vers 8.1 Microsoft a voulu franchir un cap, en proposant de faire des applications qui reposeraient sur les mêmes APIs que Windows 8.1. De ce fait, ils ont mis en place 2 catégories d'applications C# sur Windows Phone. Nous retrouvons donc :
 
@@ -65,7 +65,7 @@ Pour vous aider à choisir quelle version prendre, il vous faut connaître quels
 
 Pour plus d'informations à ce niveau, je vous invite à aller lire [cette page du MSDN](http://msdn.microsoft.com/fr-FR/library/windows/apps/dn642082(v=vs.105).aspx), elle vous récapitule toutes les différences entre les différents types.
 
-# Les applications Universelles
+## Les applications Universelles
 
 ![Les applications universelles](/assets/images/uploads/2014/10/AppUniversal.png){:img: width="768" height="495"}
 **Les applications universelles**
@@ -78,7 +78,7 @@ Comme vous pouvez le voir, nous avons un projet **Windows 8.1**, un projet **Win
 
 C'est là qu'intervient le "projet" Shared puisque la majorité du code peut être mise en commun, pourquoi ne le mutualiserions-nous pas ? Et bien c'est à ça qu'il sert. nous mettons en commun tout ce qui peut l'être et pour le code spécifique nous le mettons dans le projet correspondant. Au moment de la compilation tous les fichiers du "projet" shared sont "copiés" vers le projet en cours de compilation pour être inclus dans le package produit.
 
-# Conclusion
+## Conclusion
 
 Lorsque vous voudrez créer une application pour les plateformes Microsoft. Il vous faudra donc :
 

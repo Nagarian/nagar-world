@@ -25,7 +25,7 @@ Plutôt que de vous expliquer le fonctionnement du projet par fichier, je vais p
   - [Ecran de veille, nouveau écran et bonus]({% post_url 2014-10-11-arcade-raspberry-pi-2-3 %})
 - Partie 3/3 : MCP23017 - PiArcade, ou l'art de re-coder ce qui existe déjà
 
-# Singleton : un moyen simple d'avoir un fichier de configuration
+## Singleton : un moyen simple d'avoir un fichier de configuration
 
 Tout d'abord, afin de pouvoir mettre en place un fichier de configuration pour l'utilisation des touches, j'ai utilisé la modularité de python et j'en ai fait un fichier : selectorConfig.py. Ce fichier permet ainsi de définir des « constantes » que l'on pourra accéder depuis n'importe où dans le code, car toutes les variables contenues dans ce fichier sont ensuite inclues dans le fichier singleton.py. Pour pouvoir ensuite les utiliser il suffira simplement de faire :
 
@@ -35,11 +35,11 @@ Singleton.MA_VARIABLE
 
 Pour précision, c'est dans ce fichier que j'ai défini les touches utilisées dans toute l'interface du sélecteur. Si vous souhaitez juste changez la configuration des touches, il suffit de se reporter à la documentation de `pygame.locals` pour savoir les noms des constantes utilisées
 
-# Ajouter ou modifier une console ou un émulateur
+## Ajouter ou modifier une console ou un émulateur
 
 De la même manière, afin de définir comment rajouter une console ou un émulateur dans le sélecteur, le programme va se reposer sur 2 fichiers comme auparavant : `machines.conf` et `select.sh`. Ainsi pour pouvoir rajouter un émulateur la manipulation est sensiblement la même que ce qui existait déjà. Pour commencer, nous devons définir les différentes machines que nous voulons dans le fichier `machines.conf`.
 
-## Définir les consoles à utiliser : Machines.conf
+### Définir les consoles à utiliser : Machines.conf
 
 Ce fichier de configuration est celui qui va définir les différentes consoles disponibles dans le menu du choix des consoles. L'ordre des consoles est également important car c'est ce fichier qui permet de faire la correspondance entre les émulateurs et le code retour que l'on utilise dans le fichier select.sh. En effet la toute première console qui se trouve dans le fichier correspondra au numéro 2 dans select.sh. Ensuite la deuxième console correspond au choix numéro 3, et ainsi de suite jusqu'à la 49ème console (encore faut-il en avoir autant !). Pour ce qui est du code retour pour les émulateurs alternatifs, on ne définit aucune ligne pour eux, mais on le calcule très facilement à partir de l'index de notre console. Ainsi pour le premier émulateur alternatif, nous prenons le code retour correspondant à la console de base, et on ajoute 50. Ainsi dans mon fichier machines.conf, l'arcade se trouve en deuxième position, il donc comme code retour 3, pour utiliser l'émulateur alternatif nous ajoutons 50 et nous obtenons 53 ce qui correspond à l'émulateur advmenu.
 
@@ -59,7 +59,7 @@ Les changements opérés par rapport à la version initiale, sont uniquement le 
 
 PS : vous pouvez à tout moment rajouter une nouvelle ligne de commentaire dans le fichier options.conf, pour cela il vous suffit de commencer la ligne par un `#`
 
-## Définir les émulateurs à lancer : `select.sh`
+### Définir les émulateurs à lancer : `select.sh`
 
 Une fois que les consoles que l'on a choisies ont été rajoutés dans le fichier de configuration, il nous faut définir quel émulateur nous devons lancer en fonction du numéro calculé précédemment. Pour cela, il suffit d'insérer dans le fichier `select.sh`, un nouveau case dans le switch-case.
 
@@ -73,7 +73,7 @@ Par exemple, pour pouvoir lancer l'émulateur advmenu pour qu'il lance les jeux 
 
 Voilà maintenant, vous savez tout ce qu'il faut savoir pour pouvoir rajouter un émulateur ou une nouvelle console dans le sélecteur.
 
-# Modifier les options disponibles dans le menu des options
+## Modifier les options disponibles dans le menu des options
 
 Une des nouvelles fonctionnalités que j'ai apportées au projet, c'est la possibilité de configurer entièrement le menu des options (accessible par la touche `O`). J'entends par-là, que nous pouvons ajouter très facilement une nouvelle option sans rien connaître en python. En effet, tout se situe dans le fichier `options.conf`, `select.sh` et le dossier `tools`.
 

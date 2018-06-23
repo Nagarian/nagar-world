@@ -26,7 +26,7 @@ Bref dans ces trois articles, je vais vous expliquer le fonctionnement de l'écr
   - [Ecran de veille, nouveau écran et bonus]({% post_url 2014-10-11-arcade-raspberry-pi-2-3 %})
 - Partie 3/3 : MCP23017 - PiArcade, ou l'art de re-coder ce qui existe déjà
 
-# Etat des lieux et fonctionnement global
+## Etat des lieux et fonctionnement global
 
 ![Schema structuration des scripts](/assets/images/uploads/2014/09/schema_fonctionnement-1.png){:img: .alignleft width="400" height="227"}
 
@@ -46,7 +46,7 @@ Nous avions également le dossier `imatges`, qui contenait toutes les ressources
 - 3 scripts bash, `amstradfiles.sh`, `listfiles.sh`, `listfiles_sdl.sh`. Le premier servait à lancer l'Amstrad. Les deux autres par contre servaient à lister les jeux disponibles et choisir celui que l'on veut. La différence entre les deux résidait dans l'affichage, le _sdl correspondait à la version python, et l'autre en ligne de commande (chacun ses goûts !)
 - 3 scripts python, `emlaunch.py`, `filesel.py` et `menusel.py`. Le premier permettait à l'utilisateur de choisir la console et l'émulateur avec lequel il souhaitait jouer. Le deuxième, à choisir le jeu auquel il souhaitait jouer, et le troisième constituaient le menu des options.
 
-## Mon avis
+### Mon avis
 
 Nous avons fini le tour du propriétaire, nous pouvons maintenant passer aux critiques sur la structure du projet. Tout d'abord, d'un point de vue utilisateur, ce n'est pas génial car nous avons un temps d'attente assez long pour passer d'un menu à un autre. Après nous avons quelques détails esthétiques pas très unifiés, par exemple le background entre chaque écran ne suit pas le même style.
 
@@ -54,7 +54,7 @@ Ensuite d'un point de vue fonctionnel, chaque écran peut être lancé indépend
 
 Et pour finir, l'organisation des fichiers dans le projet, tout comme la structuration du code ressemble à un grand capharnaüm. Par exemple, nous avons un dossier `imatges` qui contient toutes les ressources utilisées en vrac, il n'y a que les images pour l'écran de veille qui soit organisé. Et pour le code nous sommes en programmation procédurale, donc celui-ci est relativement complexe à comprendre.
 
-# Nouvelle structuration et organisation
+## Nouvelle structuration et organisation
 
 Pour la restructuration du projet, je suis partie du code qui avait déjà été écrit dans le projet. En effet, de mes expériences avec les autres langages que j'ai eu utilisés auparavant, j'ai décidé de faire un travail de refactorisation et de remodèlement plutôt que de repartir de zéro.
 
@@ -74,7 +74,7 @@ Celui-ci est rudement simple d'utilisation. Nous avons à notre disposition, une
 - `Update()` : il s'agit de la fonction principale, et la plus importante. C'est cette fonction-là qui va contenir toutes la logique de mise à jour des variables que l'on utilise durant le jeu. Ainsi c'est dans cette fonction que nous mettrons en place toutes la logique de mise à jour de notre interface.
 - `Draw()` : cette dernière fonction est également importante car c'est dans celle-là que nous disposons sur notre écran les différents éléments que nous devons afficher. Elle ne doit donc contenir aucune logique de mise à jour de l'interface, elle doit juste s'occuper d'afficher les éléments.
 
-# Répartition des fichiers
+## Répartition des fichiers
 
 ![Monogame structure class Game1](/assets/images/uploads/2014/09/fileList-1.png){:img: .alignleft width="178" height="400"}
 

@@ -25,7 +25,7 @@ Durant le CTF se trouvait une épreuve "Dungeon Of Lol", le but de cette épreuv
 
 ![Sthack Dungeon of Lol](/assets/images/uploads/2014/03/Sthack-DoL-Accueil.png)
 
-# 1ere partie : Découverte du challenge et hypothèses
+## 1ere partie : Découverte du challenge et hypothèses
 
 Le jeu se compose d'un grille de 4 salles sur 4, et il nous est permis de ne changer que de 8 salles, à l'issu de cela soit on gagne, soit on perd. En relisant, l’énoncé on découvre que le flag consiste à trouver le bon chemin à parcourir pour trouver la sortie. Cependant en re-testant plusieurs fois le jeu on se rend compte que celui-ci comporte des bugs. Ainsi, on peut refaire plusieurs fois le même chemin sans que l'issu soit la même.
 
@@ -33,7 +33,7 @@ De plus le point de spawn de notre personnage est aléatoire entre 2 salles, la 
 
 ![Sthack Dungeon of Lol](/assets/images/uploads/2014/03/Sthack-DoL-Game1.png)
 
-# 2eme partie : Décompilation et analyse
+## 2eme partie : Décompilation et analyse
 
 Une fois que l'on sait ce que l'on cherche, il nous faut regarder ce que l'on a à notre disposition. Pour résumer en dehors, des dlls Unity, System et Mono (librairie utilisés pour le portage de code sur les autres plateformes); les ressources graphiques, on trouve 3 éléments que l'on peut exploiter :
 
@@ -61,7 +61,7 @@ A partir de là, on peut soit explorer la piste de l'importation de la dll, cepe
 
 J'ai donc décidé de mettre de côté cette piste. Malgré tout, vous pouvez toujours allez lire [cet article](http://cubeslam.net/2014/03/15/sthack-unity2d-dllimport-and-monty-python/) écrit par l'auteur du challenge. Il s'agit de la solution initiale qui avait été prévu!
 
-# 3eme partie : Bourrinage et prise de tête
+## 3eme partie : Bourrinage et prise de tête
 
 Je suis donc repartit sur l'étude de la fonction CheckCollision, celle-ci comporte la condition qui détermine la fin du jeu, c'est-à-dire dès que l'on a parcouru 8 salles on vérifie si on a bon et on s'arrête. J'ai donc eu l'idée d'aller modifier cette condition là afin de faire en sorte que dès que l'on a parcouru la deuxième salle, on fait la condition de fin. Pour cela, j'ai utilisé IDA afin de localiser le code hexa à modifier.
 
@@ -84,4 +84,3 @@ Grâce à cela, il suffit de jouer au jeu et dès que l'on passe à la deuxième
 De ce fait, nous saurons si le premier mouvement est correct dès qu'on l'aura effectuer. il ne nous reste donc plus qu'à re-modifier  l'hexa de la DLL en l'incrémentant et faire les test nécessaire en jouant au jeu afin de trouver le bon chemin. Et petit à petit, on découvre la totalité du chemin et on obtient le flag nécessaire à la validation du challenge.
 
 Ainsi le flag à trouver était `RightDownDownLeftDownRightDown`
-

@@ -34,7 +34,7 @@ Bien que cela puisse suffire pour des applications comme les lecteurs de flux RS
 
 Mais la question que l'on se pose : "Comment font-ils?"
 
-# WriteableBitmap à votre service !
+## WriteableBitmap à votre service !
 
 L'astuce consiste à générer une image avec toutes les informations que l'on souhaite montrer, l'enregistrer et récupérer l'Uri permettant d'y accéder, puis la passer à notre méthode pour mettre à jour notre (nos) tuile(s). Pour cela, la classe `WriteableBitmap` possède une méthode fort pratique qui permet de convertir directement une composante XAML en un WriteableBitmap.
 
@@ -47,13 +47,13 @@ Pour pouvoir l'utiliser, nous instancions donc un nouvel objet WriteableBitmap a
 
 puis nous "dessinons" dedans grâce à la méthode `Render`, un `UIElement`, que l'on positionne grâce à une translation avec le second paramètre, qui est du type `Transform`, que l'on peut spécifier comme étant null si nous désirons positionner l'élément aux coordonnées 0,0 de notre image.
 
-## Dessiner, oui, mais pas n'importe comment
+### Dessiner, oui, mais pas n'importe comment
 
 A ce moment-là, vous pensez sûrement qu'il suffit juste d'instancier un UserControl ou de récupérer un DataTemplate et de l'utiliser directement dans la méthode. Cependant, vous rencontrerez un double problème, le premier est que tous les textes ne se positionnent pas correctement. Et les images ne se chargent pas.
 
 ![Fail](/assets/images/uploads/2014/01/fail0.png)
 
-## Régler le positionnement
+### Régler le positionnement
 
 On pourrait donc essayer de créer une Grid dans le code, puis d'ajouter les éléments un par un, puis de mettre directement la Grid dans notre WriteableBitmap. Mais vous risquez d'obtenir le même résultat. Donc pour le coup, la méthode la plus efficace est de créer les éléments, un par un et de les rajouter au fur et à mesure sur le WriteableBitmap.
 
@@ -70,7 +70,7 @@ Dans cet exemple, je vous montre également comment résoudre le problème du po
 
 A partir de là, vous avez toutes les cartes en main pour écrire où vous voulez, comme vous voulez et de la couleur que vous voulez sur votre tuile.
 
-## Régler le cas des images
+### Régler le cas des images
 
 Positionner c'est bien mais sur une jolie image c'est mieux ! Donc intéressons-nous maintenant au problème des images.
 
@@ -87,7 +87,7 @@ _largeImage.ImageOpened += (s, e) =>
 
 Voilà maintenant vous savez construire une tile entièrement customisable, il vous faut juste réfléchir au design que vous désirez adopter pour votre tuile. En attendant, nous allons plutôt nous intéresser à comment mettre en place notre WriteableBitmap sur la tile de notre application.
 
-# Enregistrer pour réutiliser
+## Enregistrer pour réutiliser
 
 Lorsque l'on veut définir l'image avant ou arrière d'une tuile, nous pouvons seulement donner l'Uri de l'emplacement de l'image. Donc avec notre méthode, nous sommes obligés d’enregistrer quelque-part notre image, pour pouvoir l'attribuer à une tuile.
 

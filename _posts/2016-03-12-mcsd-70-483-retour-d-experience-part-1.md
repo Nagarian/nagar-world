@@ -16,7 +16,7 @@ Comme spécifier dans mes deux précédents articles, j'ai passé la certificati
 
 <!--more-->
 
-# Réviser la certification
+## Réviser la certification
 
 Lorsque j'ai voulu passer la certification, la première chose que j'ai faite c'est de chercher sur internet comment faire pour réviser les points abordés dans la certification. Et après moult heures passées à écumer le web de long en large, je me suis aperçu que les meilleures solutions étaient celles proposées directement sur la page de la certification. Aussi n'étant pas un grand fan des cours par vidéo, j'ai préféré me rabattre sur les livres de certifications. Et celui proposé reste dans la moyenne des prix pour ce type de livre (environ 40€ pour la version papier et 30€ pour la version ebook)
 

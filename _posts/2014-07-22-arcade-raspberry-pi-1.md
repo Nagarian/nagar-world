@@ -24,7 +24,7 @@ PS : la photo ci-dessus n'est pas réprésentative des bornes que nous avons ré
 - [Partie 2/3 : Chameleon Pi fork, ou la refonte d'un menu]({% post_url 2014-09-27-arcade-raspberry-pi-2-1 %})
 - Partie 3/3 : MCP23017 - PiArcade, ou l'art de re-coder ce qui existe déjà
 
-# Origine du projet
+## Origine du projet
 
 Au tout début du projet, nous avions pour consigne de réaliser deux bornes d'arcade afin de rendre plus convivial la cafétéria de notre école, [Ingésup Bordeaux](http://www.ingesup.com/ecole-informatique/bordeaux.html). Nous avions pour contrainte de faire une borne à moindre coût possible. Donc c'est pour cela que nous nous sommes dirigés vers la Raspberry Pi.
 
@@ -38,7 +38,7 @@ Cependant, la Raspberry Pi possède un total de 17 GPIO utilisables. Et pour deu
 
 Et pour finir la liste de course, nous nous sommes procuré des boutons de bornes d'arcade ainsi que le nombre de joystick nécessaire (tout cela peut se trouver sur des sites marchands comme Amazon ou autres) et pour donner un aspect plus rétro, nous avons récupéré des écrans d'ordinateur 4:3.
 
-# Le choix du système
+## Le choix du système
 
 Lorsque la question du système que nous allions utiliser, est venue, nous avons regardé sur internet les différents projets qui avaient déjà été réalisés. Ainsi nous en avons trouvé tout un tas, cependant un a su retenir notre attention, il s'agit de Chameleon Pi.
 
@@ -46,9 +46,9 @@ Lorsque la question du système que nous allions utiliser, est venue, nous avons
 
 Les raisons à cela sont simples. Le nombre d'émulateur présent étant satisfaisant, l'interface de choix de l'émulateur et du jeu est simple, claire et design. De plus, le site officiel explique assez bien le fonctionnement du projet ce qui nous a permis de l'intégrer bien plus facilement. Pour plus d'informations vous pouvez vous rendre directement sur le site officiel du projet : [http://chameleon.enging.com/](http://chameleon.enging.com/)
 
-# La réalisation du système
+## La réalisation du système
 
-## La partie hardware
+### La partie hardware
 
 Comme dit précédemment, nous avons utilisé une Raspberry Pi, et une puce MCP23017. Nous avons cherché pendant un moment comment elle fonctionne et nous avons fini par trouver [ce blog](http://www.raspberrypi-spy.co.uk/2013/07/how-to-use-a-mcp23017-i2c-port-expander-with-the-raspberry-pi-part-1/) qui nous a permis de comprendre son fonctionnement. Aussi si vous voulez en apprendre plus, je vous conseille d'aller le lire, ce ne sera jamais perdu !
 
@@ -60,7 +60,7 @@ Sur le schéma, les 2 pins les plus à gauche (GPA7 et GPB0) sont utilisables po
 
 La connexion entre la Raspberry et la puce passe par les ports I2C. Nous n'avons pas mis de résistance entre chaque bouton, car nous avons constaté que tout le circuit supporté la tension délivrée, mais libre à vous d'en rajouter, cela vous permettra de sécuriser un peu plus la borne.
 
-## La partie Software
+### La partie Software
 
 Pour cette partie, nous avions trois opérations à effectuer :
 
@@ -68,7 +68,7 @@ Pour cette partie, nous avions trois opérations à effectuer :
 - Trier et configurer les émulateurs
 - Modifier l'interface de la borne
 
-### Gestion des touches
+#### Gestion des touches
 
 Notre borne possède 17 boutons et deux joysticks, mais ils ont beau être présent, ils ne vont pas fonctionner par la voix du Saint-esprit ! De ce fait, nous avons effectué des recherches pour voir ce que nos prédécesseurs avaient déjà trouvé à ce sujet. Nous sommes donc d'abord tombés sur ce projet-là : [Adafruit-Retrogame](https://github.com/adafruit/Adafruit-Retrogame). 
 
@@ -109,7 +109,7 @@ Merci à son créateur **[Guy Zyskind](http://web.media.mit.edu/~guyzys/)**, po
 
 Ce programme se configure et s'utilise ensuite de la même manière que Retrogame. C'est pour cela également que nous avons travaillé avec.
 
-### Configuration des émulateurs
+#### Configuration des émulateurs
 
 ![Borne arcade](/assets/images/uploads/2014/07/1676971-ms_pac_man_arcade_machine.jpg){:img: .alignright width="177" height="320"}
 Pour cette étape, nous avons tout d'abord fait le tri parmi toutes les consoles disponibles. En effet, notre but était de faire des bornes d’arcade, de ce fait toutes les consoles comme la Commodore, l'Amstrad, l’Apple ][ et d'autres, dont on a besoin d’un clavier pour jouer n’étaient pas adaptés. De ce fait nous les avons tout simplement enlevés.
@@ -135,7 +135,7 @@ De plus, nous avons choisi de désactiver la plupart des fonctionnalités comme 
 
 Mais bien évidemment tout cela reste ré-activable, nous avons juste commenté les lignes qui se trouvent dans les fichiers `/opt/selector/tools/AUTOEXEC.launcher` et `/opt/selector/tools/AUTOEXEC.system` pour faire cela.
 
-### Modification de l'interface
+#### Modification de l'interface
 
 Nous nous sommes donc penchés sur l’OS et nous avons regardé comment il était composé. Nous avons constaté que seuls deux dossiers allaient nous intéresser, le dossier /roms qui sert à stocker toutes les roms pour les différents jeux, et le dossier /opt/selector.
 
@@ -153,7 +153,7 @@ En attendant vous pouvez dès maintenant, télécharger et utiliser ma version d
 
 NB : sur cette version j'ai fait en sorte de laisser actifs le SMB, et montage de clé USB, et squasfs au démarrage.
 
-# Le rendu ... final?
+## Le rendu ... final?
 
 Nos bornes bien que pas tout à fait finalisées sont parfaitement fonctionnelles et jouables... dans leurs boîtes en cartons ! =D
 

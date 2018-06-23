@@ -17,6 +17,8 @@ tags:
 
 Normalement lorsque l'on branche une Arduino sur une Raspberry Pi, tout marche sans aucun problème, cependant ce n'est pas toujours le cas. Aussi je vous fais part aujourd'hui de la résolution du problème que j'ai rencontré lors de l'utilisation conjointe de ces deux joujoux =D
 
+<!--more-->
+
 Lorsque l'on branche une Arduino sur une Raspberry Pi, en temps normal celle-ci apparaît dans la liste des Devices sous la forme :
 
 - `/dev/ttyACM0`
@@ -26,7 +28,7 @@ Lorsque l'on branche une Arduino sur une Raspberry Pi, en temps normal celle-ci 
 
 Cependant alors que sur mon raspbian usuel, cela marche sans aucun problème, j'ai eu la surprise de voir que l'Arduino que j'avais branché sur mon raspbian de dév qu'elle n'était pas déctectée.
 
-# Identifier le problème
+## Identifier le problème
 
 Pour pouvoir identifier le problème lié à cela, il suffit de brancher l'Arduino et de taper la commande
 
@@ -62,12 +64,12 @@ On voit que la Leonardo, est reconnue et a priori, est reconnue. Cependant elle 
 
 Par contre pour la Nano, la Raspberry n'y arrive absolument pas et le programme ftdi_sio bug.
 
-# Le résoudre
+## Le résoudre
 
 Après quelques recherches infructueuses sur l'origine de cette erreur et la comparaison avec mon autre système, je suis parvenu à résoudre le problème. Pour cela, il suffit de mettre à jour le firmware de la Raspberry Pi. Et pour faire cela, il existe une commande spécialement prévue :
 
 ```bash
-$ sudo rpi-update
+sudo rpi-update
 ```
 
 [![alt](/assets/images/uploads/2014/05/rpi-update.png)](/assets/images/uploads/2014/05/rpi-update.png)
@@ -113,4 +115,4 @@ $ dmesg
 [  939.016190] usb 1-1.3: FTDI USB Serial Device converter now attached to ttyUSB0
 ```
 
-NB : exécuter cette commande permet de mettre à jour le firmware de la Raspberry, cependant, étant donnée qu'elle n'a pas de mémoire interne, la mise à jour s'installe sur la carte SD, il faudra donc refaire cette manipulation si vous changer de carte SD ou de système sur celle-ci.
+**NB :** exécuter cette commande permet de mettre à jour le firmware de la Raspberry, cependant, étant donnée qu'elle n'a pas de mémoire interne, la mise à jour s'installe sur la carte SD, il faudra donc refaire cette manipulation si vous changer de carte SD ou de système sur celle-ci.
