@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: Nouveau blog, nouveau statut
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 1671
 wordpress_url: http://www.nagar-world.fr/?p=1671
 date: '2016-03-05 11:51:32 -0600'
@@ -19,8 +9,6 @@ categories:
 tags:
 - certification
 - MSP
-- Weenove
-comments: []
 ---
 
 Après de long mois de silence, ce blog reprend du service !

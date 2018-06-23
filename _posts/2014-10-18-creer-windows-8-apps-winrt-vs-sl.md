@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: 'Créer une applications Windows Modern-UI en C# : Comment choisir ?'
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 372
 wordpress_url: http://www.nagar-world.fr/2014/10/18/creer-une-applications-windows-modern/
 date: '2014-10-18 19:15:00 -0500'
@@ -24,7 +14,6 @@ tags:
 - Windows 8
 - Windows Phone
 - XAML
-comments: []
 ---
 
 A l'heure actuelle, Microsoft est en cours d'unification de ses plateformes dans le but que les développeurs n'aient qu'un seul programme à maintenir à jour, et que ce même programme marche sur tout l'éco-système Windows, des ordinateurs aux téléphones, en passant par les tablettes (et bientôt sur XBox One, et les objets connectés)

@@ -1,16 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
-title: 'Retour d''expérience sur la certification MCSD 70-483 : Programming in C#
-  : Révision'
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
+title: "Retour d'expérience sur la certification MCSD 70-483 : Programming in C# : Révision"
 wordpress_id: 1821
 wordpress_url: http://www.nagar-world.fr/?p=1821
 date: '2016-03-12 17:06:04 -0600'
@@ -20,9 +9,7 @@ categories:
 tags:
 - C#
 - certification
-- MCSD
-- 70-483
-comments: []
+- MCSD 70-483
 ---
 
 Comme spécifier dans mes deux précédents articles, j'ai passé la certification [Microsoft MCSD 70-483 : Programming in C#](https://www.microsoft.com/fr-FR/learning/exam-70-483.aspx). Je vous propose donc aujourd'hui mon retour d'expérience, au cas où vous voudriez la passer. Je vais donc revenir sur comment je m'y suis pris pour la réviser, comment et où il faut aller pour la passer et enfin comment se déroule le passage. Et puisque j'ai beaucoup de choses à raconter, je vous propose cela en deux parties, à commencer par celle consacrée aux révisions (à retrouver ci-dessous)

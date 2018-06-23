@@ -1,16 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
-title: 'Une borne d''arcade à base de Raspberry Pi - Partie 2/3 : Chameleon Pi fork,
-  Refonte d''un menu'
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
+title: "Une borne d'arcade à base de Raspberry Pi - Partie 2/3 : Chameleon Pi fork, Refonte d'un menu"
 wordpress_id: 402
 wordpress_url: http://www.nagar-world.fr/2014/09/27/une-borne-darcade-base-de-raspberry-pi-2/
 date: '2014-09-27 13:54:00 -0500'
@@ -22,8 +11,8 @@ tags:
 - borne arcade
 - python
 - raspberry pi
-comments: []
 ---
+
 Après deux mois de silence, je me suis enfin décidé à publier la suite de mon précédent article. Et si j'ai mis autant de temps, c'est pour une bonne raison, je cherchais comment rédiger cet article, pour le rendre le plus intéressant possible. Aussi j'en suis arrivé à la conclusion de redécouper l'article initial que j'avais prévu en trois articles distincts ! La suite d'article traitant de la borne d'arcade passe donc à cinq.
 
 Bref dans ces trois articles, je vais vous expliquer le fonctionnement de l'écran principal de Chameleon Pi, c'est-à-dire le menu de sélection de la console et du jeu. Dans ce premier article, je vais vous décrire les changements que j'ai opérés par rapport à la version initiale.

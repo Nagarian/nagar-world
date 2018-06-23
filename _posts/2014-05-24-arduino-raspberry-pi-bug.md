@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: 'Brancher une Arduino sur une Raspberry Pi - Error : Device Not Detected'
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 422
 wordpress_url: http://www.nagar-world.fr/2014/05/24/brancher-une-arduino-sur-un-raspberry/
 date: '2014-05-24 14:46:00 -0500'
@@ -21,7 +11,6 @@ tags:
 - raspberry pi
 - arduino
 - bash
-comments: []
 ---
 
 ![image](/assets/images/uploads/2014/05/ArdyPi.jpg)

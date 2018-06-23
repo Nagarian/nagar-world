@@ -1,16 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
-title: 'Une borne d''arcade à base de Raspberry Pi - Partie 2/3 : Chameleon Pi fork,
-  Cutomize your own selector'
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
+title: "Une borne d'arcade à base de Raspberry Pi - Partie 2/3 : Chameleon Pi fork, Cutomize your own selector"
 wordpress_id: 392
 wordpress_url: http://www.nagar-world.fr/2014/10/04/une-borne-darcade-base-de-raspberry-pi/
 date: '2014-10-04 23:00:00 -0500'
@@ -21,8 +10,8 @@ tags:
 - borne arcade
 - python
 - raspberry pi
-comments: []
 ---
+
 Dans cet article, nous allons voir comment modifier votre version de Chameleon Pi, pour qu'elle corresponde à vos propres goûts.
 
 Plutôt que de vous expliquer le fonctionnement du projet par fichier, je vais plutôt vous détailler les points-clés du code, en recoupant en fonction des différentes modifications que vous serez susceptible de vouloir apporter à votre version de Chameleon PI.

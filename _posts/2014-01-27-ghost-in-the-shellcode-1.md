@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: Fais moi voir ce que tu as dans le ventre !
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 452
 wordpress_url: http://www.nagar-world.fr/2014/01/27/fais-moi-voir-ce-que-tu-as-dans-le/
 date: '2014-01-27 19:37:00 -0600'
@@ -22,8 +12,8 @@ tags:
 - ghost in the shellcode
 - sécurité informatique
 - JustDecompile
-comments: []
 ---
+
 Premier CTF dans le cadre du labo sécurité, celui de Ghost In The ShellCode. Dans celui-ci j'ai appris quelques notions plus ou moins sympathique. Par exemple, j'ai découvert un logiciel plutôt complet, JustDecompile de Telerik...
 
 ![Ghost in the shellcode logo](/assets/images/uploads/2014/03/gitsc-logo.png)

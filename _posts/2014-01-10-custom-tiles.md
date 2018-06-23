@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: Générer une tuile personnaliser sur Windows Phone
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 462
 wordpress_url: http://www.nagar-world.fr/2014/01/10/generer-une-tuile-personnaliser-sur/
 date: '2014-01-10 09:37:00 -0600'
@@ -22,15 +12,17 @@ tags:
 - Windows Phone
 - XAML
 - background agent
-comments: []
 ---
+
 L'un des avantages des applications Windows Phone par rapport à la concurrence vient des tuiles caractérisant l'OS. Celles-ci permettent aux utilisateurs de pouvoir récupérer des informations de la part de ces diverses applications sans avoir à la lancer, ou alors au contraire l'inciter à l'ouvrir pour voir du nouveau contenu.
 
 Cependant, pour nous développeurs, Microsoft nous permet de customiser celles-ci, mais cela reste plus ou moins limité. En effet, nous pouvons modifier l'image de la tuile, une description (si l'on choisit le template Flip), le titre, un compteur, etc.. (Plus d'info [ici](http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh202948(v=vs.105).aspx)) Mais après, nous ne pouvons pas par exemple modifier la police d'écriture du texte, sa disposition, son placement, etc ...
 
 ![Basic tile](/assets/images/uploads/2014/01/basicTile.png)
 
-<!--more-->L'un des avantages des applications Windows Phone par rapport à la concurrence vient des tuiles caractérisant l'OS. Celles-ci permettent aux utilisateurs de pouvoir récupérer des informations de la part de ces diverses applications sans avoir à la lancer, ou alors au contraire l'inciter à l'ouvrir pour voir du nouveau contenu.
+<!--more-->
+
+L'un des avantages des applications Windows Phone par rapport à la concurrence vient des tuiles caractérisant l'OS. Celles-ci permettent aux utilisateurs de pouvoir récupérer des informations de la part de ces diverses applications sans avoir à la lancer, ou alors au contraire l'inciter à l'ouvrir pour voir du nouveau contenu.
 
 Cependant, pour nous développeurs, Microsoft nous permet de customiser celles-ci, mais cela reste plus ou moins limité. En effet, nous pouvons modifier l'image de la tuile, une description (si l'on choisit le template Flip), le titre, un compteur, etc.. (Plus d'info [ici](http://msdn.microsoft.com/en-us/library/windowsphone/develop/hh202948(v=vs.105).aspx)) Mais après, nous ne pouvons pas par exemple modifier la police d'écriture du texte, sa disposition, son placement, etc ...
 

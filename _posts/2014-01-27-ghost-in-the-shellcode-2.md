@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: Level Up +1 n'est pas ++
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 442
 wordpress_url: http://www.nagar-world.fr/2014/01/27/level-up-1-nest-pas-2/
 date: '2014-01-27 20:56:00 -0600'
@@ -18,7 +8,6 @@ categories:
 - CTF
 - Ghost in the Shellcode
 tags: []
-comments: []
 ---
 
 Lors du CTF Ghost In The ShellCode, j'ai voulu faire un brute-forcer afin de cracker une serial constituant le flag d'une épreuve (cf [article précédent]({% post_url 2014-01-27-ghost-in-the-shellcode-1 %})).

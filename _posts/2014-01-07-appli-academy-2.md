@@ -1,29 +1,18 @@
 ---
-layout: post
-status: publish
-published: true
 title: Appli Academy
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 472
 wordpress_url: http://www.nagar-world.fr/2014/01/07/appli-academy-2/
 date: '2014-01-07 09:32:00 -0600'
 date_gmt: '2014-01-07 08:32:00 -0600'
-categories:
-- Non classé
+categories: []
 tags: []
-comments: []
-excerpt: Appli Academy est un programme mis en place par Microsoft et Soat dans le but d'aider des étudiants en informatique à se faire connaître et à les aider à développer des applications Windows 8 et Windows Phone 8. Si vous désirez plus d'informations, vous pouvez vous renseigner à cette adresse.
 ---
 
 ![Apply academy](/assets/images/uploads/2014/01/appli-academy_fceasa.jpg)
 
 Appli Academy est un programme mis en place par Microsoft et [Soat](http://www.soat.fr/) dans le but d'aider des étudiants en informatique à se faire connaître et à les aider à développer des applications Windows 8 et Windows Phone 8. Si vous désirez plus d'informations, vous pouvez vous renseigner à [cette adresse](http://etudiants.frogz.fr/post/2013/10/13/Appli-Academy-inscris-toi-et-tente-ta-chance-pour-faire-partie-de-la-2eme-promo-!.aspx)
+
+<!--more-->
 
 Pour cette deuxième promotion, j'ai eu la chance de faire partie des sélectionnés. La session se terminera le 20 janvier prochain et j'ai réussi à remplir la première partie du contrat à savoir réaliser les 3 paires d'applications. Il ne me reste plus qu'à cumuler un certain nombre de téléchargements, vous pouvez m'aider en les téléchargeant si vous le désirez.
 

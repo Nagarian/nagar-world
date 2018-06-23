@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: Passer une certification à quoi ça sert ?
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 1721
 wordpress_url: http://www.nagar-world.fr/?p=1721
 date: '2016-03-05 15:54:28 -0600'
@@ -18,8 +8,8 @@ categories:
 - Certification
 tags:
 - certification
-comments: []
 ---
+
 Dernièrement j'ai passé une certification, et il se trouve que quelques personnes m'ont demandé `à quoi ça sert d'avoir une certification ?
 
 `Eh bien, après la lecture de ce post vous devriez avoir votre réponse !

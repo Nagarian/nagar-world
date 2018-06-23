@@ -1,16 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
-title: 'Une borne d''arcade à base de Raspberry Pi - Partie 1/3 : Let''s Play the
-  Game'
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
+title: "Une borne d'arcade à base de Raspberry Pi - Partie 1/3 : Let's Play the Game"
 wordpress_id: 412
 wordpress_url: http://www.nagar-world.fr/2014/07/22/une-borne-darcade-base-de-raspberry-pi-3/
 date: '2014-07-22 21:27:00 -0500'
@@ -21,7 +10,6 @@ categories:
 tags:
 - python
 - raspberry pi
-comments: []
 ---
 
 Dans le cadre du laboratoire Electro-IT de mon école cette année, nous avons travaillé sur un projet de bornes arcade. Nous y avons travaillé dessus pendant un bon moment et pour cause, nous n'avons pas fait une, mais deux bornes ! Et qui plus est, chacune des bornes permet d'y jouer à deux dessus !

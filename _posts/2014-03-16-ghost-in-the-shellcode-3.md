@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: St'hack 2014 Dungeon of Lol Write-Up
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 432
 wordpress_url: http://www.nagar-world.fr/2014/03/16/sthack-2014-dungeon-of-lol-write-up-2/
 date: '2014-03-16 15:06:00 -0500'
@@ -21,8 +11,8 @@ tags:
 - CTF
 - ghost in the shellcode
 - sécurité informatique
-comments: []
 ---
+
 Ce week-end se tenait la St'hack, un autre ctf tout comme Ghost In The ShellCode. Celui-ci ce déroule à Bordeaux, et cela a été l'occasion de participer à une journée de conférence, et une soirée de challenges.
 
 Durant celle-ci, j'ai réussi à résoudre une épreuve, et je vous propose donc de découvrir la manière dont je l'ai résolu. Il s'agissait de l'épreuve "Dungeon Of Lol"

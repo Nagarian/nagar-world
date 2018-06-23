@@ -1,23 +1,11 @@
 ---
-layout: post
-status: publish
-published: true
 title: Objectif de ce blog
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 482
 wordpress_url: http://www.nagar-world.fr/2014/01/06/objectif-de-ce-blog-2/
 date: '2014-01-06 20:54:00 -0600'
 date_gmt: '2014-01-06 19:54:00 -0600'
-categories: []
-tags: []
-comments: []
 ---
+
 Bonjour à tous,
 
 Tout d'abord merci à vous de prendre le temps de lire mon blog.

@@ -1,16 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
-title: 'Une borne d''arcade à base de Raspberry Pi - Partie 2/3 : Chameleon Pi fork,
-  Ajouter vos propres écrans'
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
+title: "Une borne d'arcade à base de Raspberry Pi - Partie 2/3 : Chameleon Pi fork, Ajouter vos propres écrans"
 wordpress_id: 382
 wordpress_url: http://www.nagar-world.fr/2014/10/11/une-borne-darcade-base-de-raspberry-pi_11/
 date: '2014-10-11 23:00:00 -0500'
@@ -22,8 +11,8 @@ tags:
 - borne arcade
 - python
 - raspberry pi
-comments: []
 ---
+
 Dans cet avant-dernier article à propos de Chameleon Pi, vous allez découvrir comment ajouter différentes images pour l'écran de veille. Mais surtout, à la fin de celui-ci vous saurez comment faire pour rajouter d'autres écrans dans Chameleon Pi, sans trop vous prendre la tête !
 
 <!--more-->

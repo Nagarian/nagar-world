@@ -1,16 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
-title: 'Retour d''expérience sur la certification MCSD 70-483 : Programming in C#
-  : L''examen'
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
+title: "Retour d'expérience sur la certification MCSD 70-483 : Programming in C# : L'examen"
 wordpress_id: 2091
 wordpress_url: http://www.nagar-world.fr/?p=2091
 date: '2016-03-12 17:35:21 -0600'
@@ -20,9 +9,7 @@ categories:
 tags:
 - C#
 - certification
-- MCSD
-- 70-483
-comments: []
+- MCSD 70-483
 ---
 
 Comme spécifier dans mes deux précédents articles, j'ai passé la certification [Microsoft MCSD 70-483 : Programming in C#](https://www.microsoft.com/fr-FR/learning/exam-70-483.aspx). Je vous propose donc aujourd'hui mon retour d'expérience, au cas où vous voudriez la passer.

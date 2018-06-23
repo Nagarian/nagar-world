@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: 'CoreOS - OVH : configurer une adresse IP publique'
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 2241
 wordpress_url: http://www.nagar-world.fr/?p=2241
 date: '2016-11-06 18:42:22 -0600'
@@ -20,8 +10,6 @@ tags:
 - Docker
 - CoreOS
 - OVH
-- config
-comments: []
 ---
 
 CoreOS est un système d'exploitation linux destiné à l'orchestration de container. Il est principalement prévu pour être utilisé dans des plateformes de cloud, de par sa simplicité d'utilisation et par sa simplicité de maintenance (mise à jour automatique notamment)

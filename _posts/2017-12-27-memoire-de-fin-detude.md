@@ -1,15 +1,5 @@
 ---
-layout: post
-status: publish
-published: true
 title: Mémoire de fin d'étude
-author:
-  display_name: nagarian47
-  login: nagarian47
-  email: onyx_nagarian47@hotmail.fr
-  url: ''
-author_login: nagarian47
-author_email: onyx_nagarian47@hotmail.fr
 wordpress_id: 2594
 wordpress_url: http://www.nagar-world.fr/?p=2594
 date: '2017-12-27 12:36:16 -0600'
@@ -28,7 +18,6 @@ tags:
 - ".NET Core"
 - ASP .NET Core
 - ".NET Foundation"
-comments: []
 ---
 
 Dans le cadre de l'obtention de mon diplôme, j'ai dû rédiger un mémoire de fin d'études afin d'attester de l'expertise acquise durant mon parcours. Pour la réalisation de celui-ci, j'ai donc pris le parti de faire une synthèse de ces cinq années. Celles-ci ayant principalement tourné autour des technologies Microsoft, j'ai donc choisi de traiter le sujet suivant : `Fait-il beau temps pour les développeurs .NET ?`
