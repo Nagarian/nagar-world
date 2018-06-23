@@ -32,8 +32,8 @@ PS : la photo ci-dessus n'est pas réprésentative des bornes que nous avons ré
 
 <!--more-->
 
-- **Partie 1/3 : Let's Play the Game**
-- Partie 2/3 : Chameleon Pi fork, ou la refonte d'un menu
+- **[Partie 1/3 : Let's Play the Game]({% post_url 2014-07-22-arcade-raspberry-pi-1 %})**
+- [Partie 2/3 : Chameleon Pi fork, ou la refonte d'un menu]({% post_url 2014-09-27-arcade-raspberry-pi-2-1 %})
 - Partie 3/3 : MCP23017 - PiArcade, ou l'art de re-coder ce qui existe déjà
 
 # Origine du projet
