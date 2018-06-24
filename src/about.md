@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Bonjour à vous qui lisez ces quelques lignes. Ce blog (dans sa version 3) existe dans un seul but : partager la connaissance que j'ai pût et je pourrai acquérir durant mon parcours en tant que développeur informatique. Le contenu que vous y trouverait sera donc tout aussi varié que les projets que je réaliserais. En vous souhaitant bonne lecture.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Benoît Garreau
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+NB : Ce blog a été débuté durant ma formation en école informatique, vous y trouverez donc du contenu désuet mais toujours présent à des fins d'archivage.

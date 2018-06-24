@@ -1,3 +1,7 @@
+# Nagarian's blog
+
+## Importer les posts depuis wordpress
+
 ```bash
 apk update
 apk add mariadb-dev
@@ -18,7 +22,7 @@ JekyllImport::Importers::WordPress.run({
     "tags"           => true,
     "more_excerpt"   => true,
     "more_anchor"    => true,
-    "extension"      => "html",
+    "extension"      => "md",
     "status"         => ["publish"]
 })'
 ```
