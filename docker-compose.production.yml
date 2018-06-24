@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  site:
+    command: jekyll build
+    environment:
+    - JEKYLL_ENV=production

@@ -18,7 +18,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Bienvenue sur mon blog ! Ici vous y trouverez du contenu orienté développeur
   réalisé par un software craftmen.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nagar-world.fr" # the base hostname & protocol for your site, e.g. http://example.com
+url: ""
 source: src
 
 github_username:  nagarian
