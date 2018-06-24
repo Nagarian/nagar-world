@@ -5,12 +5,10 @@ wordpress_url: http://www.nagar-world.fr/2014/10/11/une-borne-darcade-base-de-ra
 date: '2014-10-11 23:00:00 -0500'
 date_gmt: '2014-10-11 22:00:00 -0500'
 categories:
-- Python
 - Raspberry Pi
 tags:
 - borne arcade
 - python
-- raspberry pi
 ---
 
 Dans cet avant-dernier article à propos de Chameleon Pi, vous allez découvrir comment ajouter différentes images pour l'écran de veille. Mais surtout, à la fin de celui-ci vous saurez comment faire pour rajouter d'autres écrans dans Chameleon Pi, sans trop vous prendre la tête !

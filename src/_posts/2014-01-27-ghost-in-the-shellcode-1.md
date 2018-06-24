@@ -5,13 +5,10 @@ wordpress_url: http://www.nagar-world.fr/2014/01/27/fais-moi-voir-ce-que-tu-as-d
 date: '2014-01-27 19:37:00 -0600'
 date_gmt: '2014-01-27 18:37:00 -0600'
 categories:
-- CTF
-- Ghost in the Shellcode
+- Sécurité
 tags:
 - CTF
 - ghost in the shellcode
-- sécurité informatique
-- JustDecompile
 ---
 
 Premier CTF dans le cadre du labo sécurité, celui de Ghost In The ShellCode. Dans celui-ci j'ai appris quelques notions plus ou moins sympathique. Par exemple, j'ai découvert un logiciel plutôt complet, JustDecompile de Telerik...

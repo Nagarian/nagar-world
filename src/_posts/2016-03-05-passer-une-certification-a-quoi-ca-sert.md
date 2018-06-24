@@ -6,8 +6,7 @@ date: '2016-03-05 15:54:28 -0600'
 date_gmt: '2016-03-05 14:54:28 -0600'
 categories:
 - Certification
-tags:
-- certification
+tags: []
 ---
 
 Dernièrement j'ai passé une certification, et il se trouve que quelques personnes m'ont demandé `à quoi ça sert d'avoir une certification ?

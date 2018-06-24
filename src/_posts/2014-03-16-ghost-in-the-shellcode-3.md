@@ -5,12 +5,10 @@ wordpress_url: http://www.nagar-world.fr/2014/03/16/sthack-2014-dungeon-of-lol-w
 date: '2014-03-16 15:06:00 -0500'
 date_gmt: '2014-03-16 14:06:00 -0500'
 categories:
-- CTF
-- Ghost in the Shellcode
+- Sécurité
 tags:
 - CTF
 - ghost in the shellcode
-- sécurité informatique
 ---
 
 Ce week-end se tenait la St'hack, un autre ctf tout comme Ghost In The ShellCode. Celui-ci ce déroule à Bordeaux, et cela a été l'occasion de participer à une journée de conférence, et une soirée de challenges.

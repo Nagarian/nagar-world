@@ -5,9 +5,10 @@ wordpress_url: http://www.nagar-world.fr/2014/01/27/level-up-1-nest-pas-2/
 date: '2014-01-27 20:56:00 -0600'
 date_gmt: '2014-01-27 19:56:00 -0600'
 categories:
+- Sécurité
+tags:
 - CTF
-- Ghost in the Shellcode
-tags: []
+- ghost in the shellcode
 ---
 
 Lors du CTF Ghost In The ShellCode, j'ai voulu faire un brute-forcer afin de cracker une serial constituant le flag d'une épreuve (cf [article précédent]({% post_url 2014-01-27-ghost-in-the-shellcode-1 %})).

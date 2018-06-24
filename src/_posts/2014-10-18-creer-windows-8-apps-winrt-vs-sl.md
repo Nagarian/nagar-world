@@ -7,13 +7,8 @@ date_gmt: '2014-10-18 18:15:00 -0500'
 categories:
 - C#
 - Windows Phone
-- Windows 8
 tags:
 - C#
-- Labo WP
-- Windows 8
-- Windows Phone
-- XAML
 ---
 
 A l'heure actuelle, Microsoft est en cours d'unification de ses plateformes dans le but que les développeurs n'aient qu'un seul programme à maintenir à jour, et que ce même programme marche sur tout l'éco-système Windows, des ordinateurs aux téléphones, en passant par les tablettes (et bientôt sur XBox One, et les objets connectés)

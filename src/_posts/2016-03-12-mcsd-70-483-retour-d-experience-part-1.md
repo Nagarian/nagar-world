@@ -8,7 +8,6 @@ categories:
 - Certification
 tags:
 - C#
-- certification
 - MCSD 70-483
 ---
 

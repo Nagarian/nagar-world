@@ -10,7 +10,6 @@ categories:
 tags:
 - borne arcade
 - python
-- raspberry pi
 ---
 
 Après deux mois de silence, je me suis enfin décidé à publier la suite de mon précédent article. Et si j'ai mis autant de temps, c'est pour une bonne raison, je cherchais comment rédiger cet article, pour le rendre le plus intéressant possible. Aussi j'en suis arrivé à la conclusion de redécouper l'article initial que j'avais prévu en trois articles distincts ! La suite d'article traitant de la borne d'arcade passe donc à cinq.

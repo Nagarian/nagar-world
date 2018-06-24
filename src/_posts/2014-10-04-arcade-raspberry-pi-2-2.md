@@ -9,7 +9,6 @@ categories:
 tags:
 - borne arcade
 - python
-- raspberry pi
 ---
 
 Dans cet article, nous allons voir comment modifier votre version de Chameleon Pi, pour qu'elle corresponde à vos propres goûts.

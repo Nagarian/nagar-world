@@ -6,10 +6,9 @@ date: '2014-07-22 21:27:00 -0500'
 date_gmt: '2014-07-22 20:27:00 -0500'
 categories:
 - Raspberry Pi
-- Arduino
 tags:
+- borne arcade
 - python
-- raspberry pi
 ---
 
 Dans le cadre du laboratoire Electro-IT de mon école cette année, nous avons travaillé sur un projet de bornes arcade. Nous y avons travaillé dessus pendant un bon moment et pour cause, nous n'avons pas fait une, mais deux bornes ! Et qui plus est, chacune des bornes permet d'y jouer à deux dessus !

@@ -6,11 +6,7 @@ date: '2014-05-24 14:46:00 -0500'
 date_gmt: '2014-05-24 13:46:00 -0500'
 categories:
 - Raspberry Pi
-- Arduino
-tags:
-- raspberry pi
-- arduino
-- bash
+tags: []
 ---
 
 ![image](/assets/images/uploads/2014/05/ArdyPi.jpg)

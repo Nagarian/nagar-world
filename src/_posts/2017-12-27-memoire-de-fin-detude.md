@@ -6,12 +6,8 @@ date: '2017-12-27 12:36:16 -0600'
 date_gmt: '2017-12-27 11:36:16 -0600'
 categories:
 - C#
-- Windows Phone
-- Windows 8
-- XAML
 - Docker
 tags:
-- C#
 - Windows Phone
 - Docker
 - ".NET"

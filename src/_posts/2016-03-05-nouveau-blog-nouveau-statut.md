@@ -5,10 +5,9 @@ wordpress_url: http://www.nagar-world.fr/?p=1671
 date: '2016-03-05 11:51:32 -0600'
 date_gmt: '2016-03-05 10:51:32 -0600'
 categories:
-- Microsoft Student Partner
+- Certification
 tags:
-- certification
-- MSP
+- Microsoft Student Partner
 ---
 
 Après de long mois de silence, ce blog reprend du service !
