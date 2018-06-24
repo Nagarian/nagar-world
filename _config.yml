@@ -36,7 +36,10 @@ paginate_path:         /page/:num/
 author:
   social:
     linkedin: benoitgarreau
-    rss: /feed/
+    rss: /feed.xml
+hydejack:
+  no_break_layout: true
+accent_color: '#4fb1ba'
 ############################
 
 # YAML Front Matter default settings value
