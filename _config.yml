@@ -13,22 +13,55 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Nagar-world
-email: your-email@example.com
+title: Nagarian's blog
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Bienvenue sur mon blog ! Ici vous y trouverez du contenu orienté développeur
+  réalisé par un software craftmen.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Nagarian33
+url: "https://nagar-world.fr" # the base hostname & protocol for your site, e.g. http://example.com
+source: src
+
 github_username:  nagarian
+twitter_username: Nagarian33
+permalink: /:year/:month/:day/:title/
+show_excerpts: true
+excerpt_separator: <!--more-->
+
+############################
+# Hydejack setting
+lang: fr
+accent_image: /assets/images/home_background.jpg
+paginate:              10
+paginate_path:         /page/:num/
+author:
+  social:
+    linkedin: benoitgarreau
+    rss: /feed/
+############################
+
+# YAML Front Matter default settings value
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: post
+      author: Benoît Garreau
+      published: true
+      pagination: 
+        enabled: true
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 sass:
   style: compact # possible values: nested expanded compact compressed
 
