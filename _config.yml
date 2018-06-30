@@ -35,6 +35,8 @@ paginate:              10
 paginate_path:         /page/:num/
 author:
   social:
+    github: nagarian
+    twitter: Nagarian33
     linkedin: benoitgarreau
     rss: /feed.xml
 hydejack:
@@ -54,6 +56,12 @@ defaults:
       published: true
       pagination: 
         enabled: true
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: category
 
 # Build settings
 markdown: kramdown
@@ -64,6 +72,8 @@ plugins:
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-avatar
+  # - jekyll-category-pages
 
 sass:
   style: compact # possible values: nested expanded compact compressed

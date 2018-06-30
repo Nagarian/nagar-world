@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: A propos
 permalink: /about/
 menu: true
