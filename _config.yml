@@ -29,7 +29,7 @@ excerpt_separator: <!--more-->
 
 ############################
 # Hydejack setting
-lang: fr
+lang: fr_FR
 accent_image: /assets/images/home_background.jpg
 paginate:              10
 paginate_path:         /page/:num/
@@ -42,6 +42,9 @@ author:
 hydejack:
   no_break_layout: true
 accent_color: '#4fb1ba'
+############################
+# SEO 
+google_site_verification: Zjg438GK-N5Zk3c0QGigPCfJCoT6BajH-0jMri3vhzc
 ############################
 
 # YAML Front Matter default settings value
